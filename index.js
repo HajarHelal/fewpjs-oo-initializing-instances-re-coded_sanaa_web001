@@ -1,8 +1,8 @@
 // Write your code heredsf
 class breakfast {
   constructor(food , drink){
-    this .food=food
-    this .drink=drink
+    this.food=food
+    this.drink=drink
   }
 }
 
