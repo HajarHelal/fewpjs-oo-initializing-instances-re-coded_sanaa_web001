@@ -1,13 +1,24 @@
 // Write your code heredsf
-class breakfast {
-  constructor(food , drink){
-    this.food=food;
-    this.drink=drink;
+class Breakfast {
+  constructor(food, drink) {
+    this.food = food
+    this.drink = drink
   }
 }
-let newbreakfast = new breakfast(food, drink)
 
-class lunch{}
+class Lunch {
+  constructor(salad, soup, drink) {
+    this.salad = salad
+    this.soup = soup
+    this.drink = drink
+  }
+}
 
-
-class dinner{}
+class Dinner {
+  constructor(salad, soup, entree, dessert) {
+    this.salad = salad 
+    this.soup = soup 
+    this.entree = entree 
+    this._dessert = dessert
+  }
+}
