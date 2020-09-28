@@ -5,7 +5,7 @@ class breakfast {
     this.drink=drink;
   }
 }
-
+let newbreakfast = new breakfast(food, drink)
 
 class lunch{}
 
